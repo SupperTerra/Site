@@ -16,6 +16,7 @@ body
 a 
 {
 	text-decoration: none;
+	color: inherit;
 }
 
 
@@ -278,7 +279,7 @@ ul
 }
 
 .modal-login h2{
-	width:100%;
+	width:300px;
 	padding: 0;
 	margin: 0;
 	margin-bottom: 20px;
@@ -289,4 +290,32 @@ ul
 .modal-login p{
 	padding: 0;
 	margin: 0;
+	margin-bottom: 14px;
+
+}
+
+
+.user-login-icon,
+.user-password-icon
+{
+	width: 300px;
+	margin-bottom: 14px;
+	box-sizing: border-box;
+	padding: 7px 15px;
+	border:2px solid black;
+
+}
+
+
+.forgot-password
+{
+	text-decoration: underline;
+}
+
+
+.login-button
+{
+	width: 300px;
+	padding: 10px 0px;
+	margin: 14px 0px;
 }
